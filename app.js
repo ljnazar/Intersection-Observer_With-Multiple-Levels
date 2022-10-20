@@ -7,12 +7,18 @@ const yellow = "#eab308";
 const violet = "#8b5cf6";
 const red = "#ef4444";
 
+/* Adapt screen height */ 
+let heightScreen = window.innerHeight;
+let marginPerfect = `-35px 0px ${125 - heightScreen}px 0px`;
+let marginGreat = `-25px 0px ${135 - heightScreen}px 0px`;
+let marginGood = `-15px 0px ${145 - heightScreen}px 0px`;
+let marginBad = `-5px 0px ${155 - heightScreen}px 0px`;
+let marginMiss = `0px 0px 0px 0px`;
+
 /////////////////////////////////////////////////////////
 let optionsPerfect = {  
-    root: null,  
-    // Altura 480 y elemento de 100px
-    // El tercer parámetro que sería bottom se debe calcular en base a la altura
-    rootMargin: '-95px 0px -275px 0px',  
+    root: null,
+    rootMargin: marginPerfect,  
     threshold: 1
 };
 
@@ -31,9 +37,7 @@ observerPerfect.observe(myDivTarget);
 /////////////////////////////////////////////////////////
 let optionsGreat = {  
     root: null,  
-    // Altura 480 y elemento de 100px
-    // El tercer parámetro que sería bottom se debe calcular en base a la altura
-    rootMargin: '-85px 0px -265px 0px',  
+    rootMargin: marginGreat,  
     threshold: 1
 };
 
@@ -52,9 +56,7 @@ observerGreat.observe(myDivTarget);
 /////////////////////////////////////////////////////////
 let optionsGood = {  
     root: null,  
-    // Altura 480 y elemento de 100px
-    // El tercer parámetro que sería bottom se debe calcular en base a la altura
-    rootMargin: '-75px 0px -255px 0px',  
+    rootMargin: marginGood,  
     threshold: 1
 };
 
@@ -73,9 +75,7 @@ observerGood.observe(myDivTarget);
 /////////////////////////////////////////////////////////
 let optionsBad = {  
     root: null,  
-    // Altura 480 y elemento de 100px
-    // El tercer parámetro que sería bottom se debe calcular en base a la altura
-    rootMargin: '-65px 0px -245px 0px',  
+    rootMargin: marginBad,  
     threshold: 1
 };
 
@@ -93,10 +93,8 @@ let observerBad = new IntersectionObserver(entries => {
 observerBad.observe(myDivTarget);
 /////////////////////////////////////////////////////////
 let optionsMiss = {  
-    root: null,  
-    // Altura 480 y elemento de 100px
-    // El tercer parámetro que sería bottom se debe calcular en base a la altura
-    rootMargin: '0px 0px 0px 0px',  
+    root: null,
+    rootMargin: marginMiss,  
     threshold: 1
 };
 

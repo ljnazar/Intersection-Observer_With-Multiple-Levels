@@ -1,86 +1,85 @@
 #cubo{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin: 800px auto;
     background-color: gray;
 }
 /* Perfect */
 #linea1{
     position: fixed;
-    top: 100px;
+    top: 40px;
     width: 100%;
     border: solid black 1px;
     background-color: black;
 }
-
 #linea2{
-    position: fixed;
-    top: 200px;
-    width: 100%;
-    border: solid black 1px;
-    background-color: black;
+position: fixed;
+top: 120px;
+width: 100%;
+border: solid black 1px;
+background-color: black;
 }
 /* Great */
 #linea3{
-    position: fixed;
-    top: 90px;
-    width: 100%;
-    border: solid black 1px;
-    background-color: black;
+position: fixed;
+top: 30px;
+width: 100%;
+border: solid black 1px;
+background-color: black;
 }
 
 #linea4{
-    position: fixed;
-    top: 210px;
-    width: 100%;
-    border: solid black 1px;
-    background-color: black;
+position: fixed;
+top: 130px;
+width: 100%;
+border: solid black 1px;
+background-color: black;
 }
 /* Good */
 #linea5{
-    position: fixed;
-    top: 80px;
-    width: 100%;
-    border: solid black 1px;
-    background-color: black;
+position: fixed;
+top: 20px;
+width: 100%;
+border: solid black 1px;
+background-color: black;
 }
 
 #linea6{
-    position: fixed;
-    top: 220px;
-    width: 100%;
-    border: solid black 1px;
-    background-color: black;
+position: fixed;
+top: 140px;
+width: 100%;
+border: solid black 1px;
+background-color: black;
 }
 /* Bad */
 #linea7{
-    position: fixed;
-    top: 70px;
-    width: 100%;
-    border: solid black 1px;
-    background-color: black;
+position: fixed;
+top: 10px;
+width: 100%;
+border: solid black 1px;
+background-color: black;
 }
 
 #linea8{
-    position: fixed;
-    top: 230px;
-    width: 100%;
-    border: solid black 1px;
-    background-color: black;
+position: fixed;
+top: 150px;
+width: 100%;
+border: solid black 1px;
+background-color: black;
 }
 /* Miss */
 #linea9{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    border: solid black 1px;
-    background-color: black;
+position: fixed;
+top: 0px;
+width: 100%;
+border: solid black 1px;
+background-color: black;
 }
 
 #linea10{
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    border: solid black 1px;
-    background-color: black;
+position: fixed;
+bottom: 0px;
+width: 100%;
+border: solid black 1px;
+background-color: black;
 }
